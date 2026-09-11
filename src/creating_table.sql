@@ -1,0 +1,10 @@
+CREATE TABLE EMP(
+       EMPNO INT PRIMARY KEY,
+       ENAME VARCHAR(30),
+       JOB  VARCHAR(25),
+       MGR INT,
+       HIREDATE DATE,
+       SAL DECIMAL(10,2),
+       COMM DECIMAL(10,2),
+       DEPTNO INT
+);

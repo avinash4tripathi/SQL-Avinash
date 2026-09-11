@@ -1,0 +1,4 @@
+GO
+USE TrainingDB;
+GO
+

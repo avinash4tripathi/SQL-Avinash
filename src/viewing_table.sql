@@ -1,2 +1,5 @@
+USE TrainingDB;
+Go 
+
 SELECT *
 FROM EMP;

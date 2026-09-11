@@ -1,4 +1,9 @@
+IF DB_ID(N'TrainingDB') IS NULL
+BEGIN
+	CREATE DATABASE TrainingDB;
+END;
 GO
+
 USE TrainingDB;
 GO
 

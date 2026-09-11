@@ -1,0 +1,45 @@
+/*Find the ename and sal of emplyee who deptno is 20.*/
+SELECT ENAME, SAL
+FROM EMP;
+
+/* WAQTD name salary and commission given to all the employees*/
+SELECT ENAME,SAL,COMM
+FROM EMP;
+
+/*WAQTD name of the employee along with their date of joining.*/
+Select ename , hiredate 
+From emp;
+
+/*WRITE A QUERY TO DISPLAY ALL THE DETAILS FROM THE EMPLOYEE TABLE*/
+SELECT *
+FROM EMP;
+
+/* WAQTD NAMES OF ALL THE EMPLOYEES*/
+SELECT ENAME
+FROM EMP;
+
+/* WAQTD NAME AND SALARY GIVEN TO ALL THE EMPLOYEES*/
+SELECT ENAME,SAL
+FROM EMP;
+
+/*WAQTD NAME AND COMMISSION GIVEN TO ALL THE EMPLOYEES.*/
+SELECT ENAEM,COMM
+FROM EMP
+
+/*WAQTD EMPLOYEE ID AND DEPARTMENT NUMBER OF ALL THE EMPLOYEES*/
+SELECT EMPNO,DEPTNO
+FROM EMP;
+
+/*WAQTD dname and location for all the depts .*/
+SELECT DNAME,LOC
+FROM DEPT;
+
+/*WRITE THE NAME AND SALARY OF A GIVEN EMPLOYEE*/
+SELECT ENAME,SAL 
+FROM EMP;
+
+/*WAQTD ALL THE details of the employee along with annual salary.*/
+SELECT EMP.*,SAL*12
+FROM EMP;
+
+
